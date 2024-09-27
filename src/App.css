@@ -37,6 +37,8 @@
     border-radius: 15px;
     color: white;
     background-color: green;
+    font-family: monospace;
+
 }
 
 .addTaskHeader{
