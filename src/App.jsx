@@ -5,8 +5,22 @@ import TaskList from './components/TaskList'
 
 function App() {
 
- let createTask = (title,description) =>{
-  console.log(title,description)
+ const [tasks, setTasks] = useState([])
+
+ const createTask = (title,description) =>{
+
+  const createdTask=[
+    ...tasks,{
+      id:Math.round(Math.random()*9999),
+      title:title,
+      description:description
+    }
+  ]
+
+  setTasks(createdTask);
+
+  console.log(createdTask);
+
  }
 
   return (
@@ -14,7 +28,7 @@ function App() {
     <div className='appDiv'>
       <TaskCreate onCreate={createTask}/>
       <h1 className='tasksHeader'>Görevler</h1>
-      <TaskList/>
+      <TaskList tasks={tasks}/>
       </div>
 
     </>
