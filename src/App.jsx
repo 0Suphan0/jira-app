@@ -23,12 +23,20 @@ function App() {
 
  }
 
+ const deleteByTaskId = (id) => {
+   const afterDeletion=tasks.filter((task)=>{
+    return task.id !==id;
+   })
+
+   setTasks(afterDeletion);
+ }
+
   return (
     <>
     <div className='appDiv'>
       <TaskCreate onCreate={createTask}/>
       <h1 className='tasksHeader'>Görevler</h1>
-      <TaskList tasks={tasks}/>
+      <TaskList tasks={tasks} onDelete={deleteByTaskId}/>
       </div>
 
     </>
