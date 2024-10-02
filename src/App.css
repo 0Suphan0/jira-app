@@ -4,14 +4,25 @@
     align-items: center;
 }
 
-.formDiv{
+.task-create{
     display: flex;
     flex-direction: column;
     width: 450px;
     
 }
 
-.formDiv form{
+.task-update{
+   width: 100%;
+    
+}
+
+.task-update form{
+    display: flex;
+    flex-direction: column;
+     
+ }
+
+.task-create form{
     display: flex;
     flex-direction: column;
 }
@@ -39,6 +50,11 @@
     background-color: green;
     font-family: monospace;
 
+}
+
+.update-btn{
+    background-color: blueviolet;
+    border-color: white;
 }
 
 .addTaskHeader{
