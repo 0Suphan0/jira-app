@@ -49,7 +49,12 @@ npm start
 
 ## 🎨 Screenshots
 
-(Screenshots can be added here)
+<img src="ProjectSS/ekran1.png" width="auto">
+<img src="ProjectSS/ekran2.png" width="auto">
+<img src="ProjectSS/ekran3.png" width="auto">
+<img src="ProjectSS/ekran4.png" width="auto">
+<img src="ProjectSS/ekran5.png" width="auto">
+
 
 ## 💌 Contact
 
@@ -105,9 +110,6 @@ npm start
 - Context API ile global state yönetimi
 - Axios ile REST API iletişimi
 
-## 🎨 Ekran Görüntüleri
-
-(Ekran görüntüleri buraya eklenebilir)
 
 ## 💌 İletişim
 
