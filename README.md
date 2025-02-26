@@ -75,7 +75,7 @@ Bu proje, temel bir Jira uygulamasını React kullanarak geliştirmek için tasa
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone https://github.com/kullaniciadi/react-jira.git
+git clone https://github.com/0Suphan0/react-jira.git
 cd react-jira
 ```
 
