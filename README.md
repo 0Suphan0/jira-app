@@ -49,11 +49,11 @@ npm start
 
 ## 🎨 Screenshots
 
-<img src="ProjectSS/ekran1.png" width="auto">
-<img src="ProjectSS/ekran2.png" width="auto">
-<img src="ProjectSS/ekran3.png" width="auto">
-<img src="ProjectSS/ekran4.png" width="auto">
-<img src="ProjectSS/ekran5.png" width="auto">
+<img src="ProjectSS/ekran1.png" width="250px">
+<img src="ProjectSS/ekran2.png" width="250px">
+<img src="ProjectSS/ekran3.png" width="250px">
+<img src="ProjectSS/ekran4.png" width="250px">
+<img src="ProjectSS/ekran5.png" width="250px">
 
 
 ## 💌 Contact
