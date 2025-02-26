@@ -17,7 +17,7 @@ This project is designed to develop a basic Jira-like application using React. U
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/username/react-jira.git
+git clone https://github.com/0Suphan0/react-jira.git
 cd react-jira
 ```
 
